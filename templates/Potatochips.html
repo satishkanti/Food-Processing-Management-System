@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %} Products|potato chips{% endblock title %}
+
+{% block body %}<table class="table">
+<thead class="thead-dark">
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Product</th>
+      <th scope="col">Phase</th>
+      <th scope="col">Task Completion</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Potato Chips</td>
+      <td>Raw Material</td>
+      <td>Yes<input type="checkbox" name="Washing" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Washing" value="No"> </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Peeling</td>
+      <td>Yes<input type="checkbox" name="Sorting  and Trimming" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Sorting  and Trimming" value="No"> </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Washing</td>
+      <td>Yes<input type="checkbox" name="Cutting and Chopping" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Cutting and Chopping" value="No"> </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Slicing</td>
+      <td>Yes<input type="checkbox" name="Heating at 70-90" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Heating at 70-90" value="No"> </td>
+    </tr>
+     <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Drying</td>
+      <td>Yes<input type="checkbox" name="Pulping" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Pulping" value="No"> </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Frying</td>
+      <td>Yes<input type="checkbox" name="Straining" value="Yes"> </td>
+      <td>No<input type="checkbox" name="Straining" value="No"> </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Seasoning</td>
+      <td>Yes<input type="checkbox" name="cooking" value="Yes"> </td>
+      <td>No<input type="checkbox" name="cooking" value="No"> </td>
+    </tr>
+     <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Packing</td>
+      <td>Yes<input type="checkbox" name="spice" value="Yes"> </td>
+      <td>No<input type="checkbox" name="spice" value="No"> </td>
+    </tr>
+     <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td>Ready for Supply</td>
+      <td>Yes<input type="checkbox" name="cooking2" value="Yes"> </td>
+      <td>No<input type="checkbox" name="cooking2" value="No"> </td>
+    </tr>
+     
+  </tbody>
+</table> 
+<p align="center">
+    <button type="button" class="btn btn-success">Update</button>
+</p>
+{% endblock body %}
